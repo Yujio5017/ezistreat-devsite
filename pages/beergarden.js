@@ -29,34 +29,34 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/ordernow" >
-            <div className={styles.card}>
+          <Link href="/ordernow" passHref>
+            <a className={styles.card}>
               <h2>Order Now &rarr;</h2>
               <p>Find in-depth information about Next.js features and API.</p>
-            </div>
+            </a>
           </Link>
 
-          <Link href="/vendors" >
-            <div className={styles.card}>
+          <Link href="/vendors" passHref>
+            <a className={styles.card}>
               <h2>Vendors &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </div>
+            </a>
           </Link>
 
-          <Link href="/beergarden" >
-            <div className={styles.card}>
+          <Link href="/beergarden" passHref>
+            <a className={styles.card}>
               <h2>Beer Garden &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </div>
+            </a>
           </Link>
 
-          <Link href="/theteam" >
-            <div className={styles.card}>
+          <Link href="/theteam" passHref>
+            <a className={styles.card}>
               <h2>The Team &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </div>
+            </a>
           </Link>
-          </div>
+        </div>
       </main>
 
       <footer className={styles.footer}>
