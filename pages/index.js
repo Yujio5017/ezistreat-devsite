@@ -13,14 +13,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/">
+        <Link href={"/"} >
         <LogoContainer>
-            <Image src="/logo.png" layout="fill" objectFit="contain"/>
+            <Image src="/logo.png" layout="fill" objectFit="contain" alt="ezikitchen logo"/>
           </LogoContainer>
         </Link>
 
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Ezi Streat!</a>
+          Welcome to <a href="https://nextjs.org">Ezi Street!</a>
         </h1>
 
         <p className={styles.description}>
@@ -30,34 +30,33 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/ordernow" >
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Order Now &rarr;</h2>
               <p>Find in-depth information about Next.js features and API.</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/vendors" >
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Vendors &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/beergarden" >
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>Beer Garden &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </a>
+            </div>
           </Link>
 
           <Link href="/theteam" >
-            <a className={styles.card}>
+            <div className={styles.card}>
               <h2>The Team &rarr;</h2>
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
-            </a>
+            </div>
           </Link>
-
-        </div>
+          </div>
       </main>
 
       <footer className={styles.footer}>
