@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href={"/"} >
+        <Link href={"/"} passHref>
         <LogoContainer>
             <Image src="/logo.png" layout="fill" objectFit="contain" alt="ezikitchen logo"/>
           </LogoContainer>

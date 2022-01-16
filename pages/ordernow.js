@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href={"/"}>
+        <Link href={"/"} passHref>
         <LogoContainer>
             <Image src="/logo.png" layout="fill" objectFit="contain" alt="ezikitchen logo"/>
           </LogoContainer>
@@ -27,7 +27,7 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-        
+
         <div className={styles.grid}>
           <Link href="/ordernow" passHref>
             <a className={styles.card}>
