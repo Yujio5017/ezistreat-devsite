@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Link from 'next/link'
+import LogoContainer from '../components/logoContainer'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,9 +14,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <Link href="/">
-          <div className={styles.logo2}>
-            <img src="logo.png"/>
-          </div>
+          <LogoContainer>
+            <Image src="/logo.png" layout="fill" objectFit="contain"/>
+          </LogoContainer>
         </Link>
 
         <h1 className={styles.title}>
