@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Loading.module.scss";
-import LogoContainer from "./logoContainer";
+import LogoContainer from "./LogoContainer";
 import Image from 'next/image';
 function Loading(props) {
   return (
