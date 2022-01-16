@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
   
     return (
       <>  
+            <link rel="stylesheet" href="https://use.typekit.net/hch7zxj.css"></link>
             <Loading loading={loading} />  
             <Component {...pageProps} />
       </>
