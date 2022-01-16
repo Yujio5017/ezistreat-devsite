@@ -13,13 +13,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <Link href="/">
-        <div className={styles.logo2}>
+          <div className={styles.logo2}>
             <img src="logo.png"/>
           </div>
         </Link>
 
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Ezi Streat!</a>
+          Welcome to <a href="https://nextjs.org">Vendors</a>
         </h1>
 
         <p className={styles.description}>
@@ -55,8 +55,7 @@ export default function Home() {
               <p>Check out our range of vendors, traversing cultures from Asia to Europe!</p>
             </a>
           </Link>
-
-        </div>
+          </div>
       </main>
 
       <footer className={styles.footer}>
@@ -74,10 +73,3 @@ export default function Home() {
     </div>
   )
 }
-// export async function getStaticProps(context) {
-//   const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-//   await delay(500).then(() => console.log('waited 3 seconds'))
-//   return {
-//     props: {}, // will be passed to the page component as props
-//   }
-// }

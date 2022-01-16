@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: var(--primary-red);
   text-decoration: none;
 }
 
@@ -88,8 +88,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: var(--primary-red);
+  border-color: var(--primary-red);
 }
 
 .card h2 {
@@ -106,6 +106,9 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.logo2 {
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
