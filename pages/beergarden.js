@@ -20,7 +20,7 @@ export default function Home() {
         </Link>
 
         <h1 className={styles.title}>
-          North Melbourne's Own <a>Beer Garden</a>
+          North Melbourne&apos;s Own <a>Beer Garden</a>
         </h1>
 
         <p className={styles.description}>
